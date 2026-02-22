@@ -16,4 +16,5 @@ A lightweight C++/Win32 diagnostic tool designed for Windows PE environments to 
 ## Build
 
 1. Compile resources: `rc.exe app.rc`
-2. Build binary: `cl.exe /EHsc /MT /O2 /DUNICODE /D_UNICODE main.cpp app.res /link wbemuuid.lib ole32.lib oleaut32.lib user32.lib gdi32.lib /SUBSYSTEM:WINDOWS`
+
+2. Build binary: `cl.exe /EHsc /MT /O2 /DUNICODE /D_UNICODE battery.cpp app.res /link wbemuuid.lib ole32.lib oleaut32.lib user32.lib gdi32.lib /SUBSYSTEM:WINDOWS`
